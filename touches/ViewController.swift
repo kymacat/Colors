@@ -82,15 +82,18 @@ class ViewController: UIViewController {
     
     @IBAction func randomColor(_ sender: Any) {
         
-        let red = Float(Int.random(in: 0...255))
+        let colors = randomColor()
+        changeStates(red: colors.0, green: colors.1, blue: colors.2)
+        
+    }
+    
+    func changeStates(red: Float, green: Float, blue: Float) {
         redSlider.setValue(red, animated: true)
         redComponent.text = String(Int(red))
         
-        let green = Float(Int.random(in: 0...255))
         greenSlider.setValue(green, animated: true)
         greenComponent.text = String(Int(green))
         
-        let blue = Float(Int.random(in: 0...255))
         blueSlider.setValue(blue, animated: true)
         blueComponent.text = String(Int(blue))
         
@@ -98,8 +101,18 @@ class ViewController: UIViewController {
         
     }
     
+    func randomColor() -> (Float, Float, Float) {
+        let red = Float(Int.random(in: 0...255))
+        let green = Float(Int.random(in: 0...255))
+        let blue = Float(Int.random(in: 0...255))
+        
+        return (red, green, blue)
+        
+    }
     
 }
+
+
 
 // MARK: - RGBColor
 
