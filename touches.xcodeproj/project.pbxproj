@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF77204B23F574DE006C7C06 /* touchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77204A23F574DE006C7C06 /* touchesTests.swift */; };
+		CFA97DDD242CA316001290C2 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA97DDC242CA316001290C2 /* HelloWorld.swift */; };
 		CFC4914E23F55878003FF2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4914D23F55878003FF2C8 /* AppDelegate.swift */; };
 		CFC4915023F55878003FF2C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4914F23F55878003FF2C8 /* SceneDelegate.swift */; };
 		CFC4915223F55878003FF2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4915123F55878003FF2C8 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		CF77204823F574DE006C7C06 /* touchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77204A23F574DE006C7C06 /* touchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchesTests.swift; sourceTree = "<group>"; };
 		CF77204C23F574DE006C7C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA97DDC242CA316001290C2 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		CFC4914A23F55878003FF2C8 /* touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC4914D23F55878003FF2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CFC4914F23F55878003FF2C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				CFC4914D23F55878003FF2C8 /* AppDelegate.swift */,
 				CFC4914F23F55878003FF2C8 /* SceneDelegate.swift */,
 				CFC4915123F55878003FF2C8 /* ViewController.swift */,
+				CFA97DDC242CA316001290C2 /* HelloWorld.swift */,
 				CFC4915323F55878003FF2C8 /* Main.storyboard */,
 				CFC4915623F55879003FF2C8 /* Assets.xcassets */,
 				CFC4915823F55879003FF2C8 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 				CFC4915223F55878003FF2C8 /* ViewController.swift in Sources */,
 				CFC4914E23F55878003FF2C8 /* AppDelegate.swift in Sources */,
 				CFC4915023F55878003FF2C8 /* SceneDelegate.swift in Sources */,
+				CFA97DDD242CA316001290C2 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
